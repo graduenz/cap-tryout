@@ -1,0 +1,12 @@
+{
+  "ConnectionStrings": {
+    "DbContext": "User ID=postgres;Password=root;Host=localhost;Port=5432;Database=CapTryout;Pooling=true;",
+    "RabbitMQ": "amqp://localhost"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  }
+}
