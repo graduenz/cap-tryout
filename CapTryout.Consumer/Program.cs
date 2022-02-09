@@ -8,7 +8,7 @@ await Host.CreateDefaultBuilder(args)
     .ConfigureAppConfiguration(cfg => cfg.AddJsonFile("hostsettings.json"))
     .ConfigureServices((ctx, services) =>
     {
-        services.AddTransient<MealAddSub>();
+        services.AddTransient<MealSub>();
         DependencyInjectionBootstrapper.ConfigureServices(services, ctx.Configuration);
     })
     .Build()
